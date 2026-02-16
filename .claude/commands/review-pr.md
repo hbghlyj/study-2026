@@ -7,7 +7,7 @@ Perform a comprehensive review of the mathematical solutions provided in the pul
 
 ### Review Criteria
 1.  **Logical Correctness:** Are there any gaps in reasoning, circular logic, or incorrect applications of theorems?
-2.  **Notation & Formatting:** Is the LaTeX formatted correctly? Does the notation follow standard academic conventions (e.g., distinguishing between sets, vectors, and scalars)?
+2.  **Notation & Formatting:** Is the LaTeX formatted correctly? Does the notation follow standard academic conventions?
 3.  **Completeness:** Are all parts of the exercise addressed? Are edge cases (e.g., $n=0$, empty sets, or boundary conditions) considered?
 4.  **Clarity & Elegance:** Is the proof/derivation easy to follow, or could it be simplified for better student understanding?
 
