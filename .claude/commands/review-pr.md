@@ -15,3 +15,4 @@ Perform a comprehensive review of the mathematical solutions provided in the pul
 Once the initial analysis is complete, review the feedback and post only the comments that identify significant errors or substantial improvements in clarity.
 
 **Note:** Provide feedback using inline comments for specific lines in the solution. Use LaTeX for all mathematical expressions in your comments.
+If the solution is incomplete, you should suggest next steps.
