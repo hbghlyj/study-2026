@@ -1,7 +1,7 @@
 # 1.
 Is the Hopf map
 
-$f`: S^3 \subset \mathbb{C}^2 \rightarrow S^2=\mathbb{C} \cup\{\infty\}, \quad(z, w) \mapsto \frac{z}{w}`$
+$`f: S^3 \subset \mathbb{C}^2 \rightarrow S^2=\mathbb{C} \cup\{\infty\}, \quad(z, w) \mapsto \frac{z}{w}`$
 
 nullhomotopic? Explain.
 
