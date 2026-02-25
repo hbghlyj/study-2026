@@ -17,5 +17,5 @@ Yes, this is true. Let $f: U \to V$ be the homeomorphism. For any point $x \in U
 
 $`f^*: H^k(V, V \setminus \{f(x)\}) \xrightarrow{\cong} H^k(U, U \setminus \{x\})`$
 
-We know that $`H^k(U, U \setminus \{x\}) \cong \mathbb{Z}`$ for $k=n$ and is $0$ otherwise. Similarly, $`H^k(V, V \setminus \{f(x)\}) \cong \mathbb{Z}`$ for $k=m$ and is $0$ otherwise.
+We know that $`H^k(U, U \setminus \{x\})\cong H^k(\mathbb{R}^n, \mathbb{R}^n \setminus \{x\}) \cong \mathbb{Z}`$ for $k=n$ and is $0$ otherwise. Similarly, $`H^k(V, V \setminus \{f(x)\}) \cong \mathbb{Z}`$ for $k=m$ and is $0$ otherwise.
 For the groups to be isomorphic for all $k$, we must have $n=m$.
