@@ -16,7 +16,7 @@ Let $\Sigma X$ be the suspension of a topological space $X$. If $\alpha \in H^k(
 
 **Proof**
 
-$\Sigma X$ is union of two contractible space, so Suppose $X = A \cup B$ with $A, B$ open and contractible.
+The suspension $\Sigma X$ is the union of two contractible cones. We can write $\Sigma X = A \cup B$ where $A$ and $B$ are open and contractible subsets of $\Sigma X$.
 Let $i_A^*: H^k(X) \to H^k(A)$ be the restriction map.
 Since $A$ is contractible, $H^k(A) = 0$ for $k > 0$.
 The long exact sequence of the pair $(X, A)$ gives us $H^k(X) \cong H^k(X, A)$ for $k > 0$.
