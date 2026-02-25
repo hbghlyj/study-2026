@@ -9,4 +9,12 @@ Let $\Sigma X$ be the suspension of a topological space $X$. If $\alpha \in H^k(
 # 3.
 Is there a continuous map $f: X \rightarrow Y$ inducing isomorphisms on all of the cohomology groups (i.e., $f^*: H^i(Y ; \mathbb{Z}) \xrightarrow{\cong} H^i(X ; \mathbb{Z})$, for all $i$) but $X$ and $Y$ do not have isomorphic cohomology rings (with $\mathbb{Z}$ coefficients)? Explain your answer.
 # 4.
-If $U \subset \mathbb{R}^n$ and $V \subset \mathbb{R}^m$ are homeomorphic open subsets, is it true that $n=m$ ? Explain your answer.
+If $U \subset \mathbb{R}^n$ and $V \subset \mathbb{R}^m$ are homeomorphic open subsets, is it true that $n=m$? Explain your answer.
+
+**Proof**
+
+Suppose $f:U\to V$ is a homeomorphism
+
+$H^n(U,0)\cong0$
+
+$H^m(V,f(0))\cong\Bbb Z$
