@@ -29,7 +29,7 @@ Is there a continuous map $f: X \rightarrow Y$ inducing isomorphisms on all of t
 
 **Proof**
 
-No. By Hatcher's Proposition 3.10, the map $f^*: H^*(Y; \mathbb{Z}) \to H^*(X; \mathbb{Z})$ is a ring homomorphism. Since it is an isomorphism of the underlying graded groups, it is a bijection. A bijective ring homomorphism is a ring isomorphism. Thus $H^*(X; \mathbb{Z})$ and $H^*(Y; \mathbb{Z})$ must be isomorphic rings. Therefore, no such map exists.
+No. By Hatcher's Proposition 3.10, the map $`f^*: H^*(Y; \mathbb{Z}) \to H^*(X; \mathbb{Z})`$ is a ring homomorphism. Since it is an isomorphism of the underlying graded groups, it is a bijection. A bijective ring homomorphism is a ring isomorphism. Thus $`H^*(X; \mathbb{Z})`$ and $`H^*(Y; \mathbb{Z})`$ must be isomorphic rings. Therefore, no such map exists.
 
 # 4.
 If $U \subset \mathbb{R}^n$ and $V \subset \mathbb{R}^m$ are homeomorphic open subsets, is it true that $n=m$? Explain your answer.
