@@ -23,7 +23,7 @@ The restriction maps $i_A^*: H^*(\Sigma X) \to H^*(A)$ and $i_B^*: H^*(\Sigma X)
 This implies that $\alpha$ is in the image of the map $H^k(\Sigma X, A) \to H^k(\Sigma X)$ from the long exact sequence of the pair $(\Sigma X, A)$. Similarly, $\beta$ is in the image of $H^l(\Sigma X, B) \to H^l(\Sigma X)$. Let $\alpha' \in H^k(\Sigma X, A)$ and $\beta' \in H^l(\Sigma X, B)$ be preimages of $\alpha$ and $\beta$.
 
 The cup product $\alpha \cup \beta$ is the image of the relative cup product $\alpha' \cup \beta' \in H^{k+l}(\Sigma X, A \cup B)$. However, $A \cup B = \Sigma X$, so the relative cohomology group $H^{k+l}(\Sigma X, A \cup B) = H^{k+l}(\Sigma X, \Sigma X) = 0$.
-Therefore, $\alpha' \cup \beta' = 0$, and since $\alpha \cup \beta$ is the image of this zero element, $\alpha \cup \beta = 0.
+Therefore, $\alpha' \cup \beta' = 0$, and since $\alpha \cup \beta$ is the image of this zero element, $\alpha \cup \beta = 0$.
 
 # 3.
 Is there a continuous map $f: X \rightarrow Y$ inducing isomorphisms on all of the cohomology groups (i.e., $f^*: H^i(Y ; \mathbb{Z}) \xrightarrow{\cong} H^i(X ; \mathbb{Z})$, for all $i$) but $X$ and $Y$ do not have isomorphic cohomology rings (with $\mathbb{Z}$ coefficients)? Explain your answer.
