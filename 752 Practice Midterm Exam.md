@@ -16,13 +16,14 @@ Let $\Sigma X$ be the suspension of a topological space $X$. If $\alpha \in H^k(
 
 **Proof**
 
-The suspension $\Sigma X$ is the union of two contractible cones. We can write $\Sigma X = A \cup B$ where $A$ and $B$ are open and contractible subsets of $\Sigma X$.
-Let $i_A^*: H^k(X) \to H^k(A)$ be the restriction map.
-Since $A$ is contractible, $H^k(A) = 0$ for $k > 0$.
-The long exact sequence of the pair $(X, A)$ gives us $H^k(X) \cong H^k(X, A)$ for $k > 0$.
-Let $a\in H^k(X)$ and $b\in H^l(X)$ be positive-dimensional cohomology classes. Let $a' \in H^k(X, A)$ and $b' \in H^l(X, B)$ be the corresponding classes under the isomorphisms.
-The absolute cup product $a \cup b$ corresponds to the relative cup product $`a' \cup b' \in H^{k+l}(X, A \cup B)`$. Since $`A \cup B = X`$, we have $`H^{k+l}(X, A \cup B) = H^{k+l}(X, X) = 0`$. Therefore, $`a' \cup b' = 0`$. By naturality, this implies $a \cup b = 0$. 
+The suspension $\Sigma X$ is the union of two open contractible subsets, the upper cone $A$ and the lower cone $B$. Let $\alpha \in H^k(\Sigma X)$ and $\beta \in H^l(\Sigma X)$ for $k, l \ge 1$.
 
+The restriction maps $i_A^*: H^*(\Sigma X) \to H^*(A)$ and $i_B^*: H^*(\Sigma X) \to H^*(B)$ are zero in positive degrees, since $A$ and $B$ are contractible. Thus, $i_A^*(\alpha) = 0$ and $i_B^*(\beta) = 0$.
+
+This implies that $\alpha$ is in the image of the map $H^k(\Sigma X, A) \to H^k(\Sigma X)$ from the long exact sequence of the pair $(\Sigma X, A)$. Similarly, $\beta$ is in the image of $H^l(\Sigma X, B) \to H^l(\Sigma X)$. Let $\alpha' \in H^k(\Sigma X, A)$ and $\beta' \in H^l(\Sigma X, B)$ be preimages of $\alpha$ and $\beta$.
+
+The cup product $\alpha \cup \beta$ is the image of the relative cup product $\alpha' \cup \beta' \in H^{k+l}(\Sigma X, A \cup B)$. However, $A \cup B = \Sigma X$, so the relative cohomology group $H^{k+l}(\Sigma X, A \cup B) = H^{k+l}(\Sigma X, \Sigma X) = 0$.
+Therefore, $\alpha' \cup \beta' = 0$, and since $\alpha \cup \beta$ is the image of this zero element, $\alpha \cup \beta = 0.
 
 # 3.
 Is there a continuous map $f: X \rightarrow Y$ inducing isomorphisms on all of the cohomology groups (i.e., $f^*: H^i(Y ; \mathbb{Z}) \xrightarrow{\cong} H^i(X ; \mathbb{Z})$, for all $i$) but $X$ and $Y$ do not have isomorphic cohomology rings (with $\mathbb{Z}$ coefficients)? Explain your answer.
