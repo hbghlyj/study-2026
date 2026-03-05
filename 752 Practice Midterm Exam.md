@@ -18,7 +18,7 @@ Let $\Sigma X$ be the suspension of a topological space $X$. If $\alpha \in H^k(
 
 The suspension $\Sigma X$ is the union of two open contractible subsets, the upper cone $A$ and the lower cone $B$. Let $\alpha \in H^k(\Sigma X)$ and $\beta \in H^l(\Sigma X)$ for $k, l \ge 1$.
 
-The restriction maps $i_A^*: H^*(\Sigma X) \to H^*(A)$ and $i_B^*: H^*(\Sigma X) \to H^*(B)$ are zero in positive degrees, since $A$ and $B$ are contractible. Thus, $i_A^*(\alpha) = 0$ and $i_B^*(\beta) = 0$.
+The restriction maps $`i_A^*: H^*(\Sigma X) \to H^*(A)`$ and $`i_B^*: H^*(\Sigma X) \to H^*(B)`$ are zero in positive degrees, since $A$ and $B$ are contractible. Thus, $i_A^*(\alpha) = 0$ and $`i_B^*(\beta) = 0`$.
 
 This implies that $\alpha$ is in the image of the map $H^k(\Sigma X, A) \to H^k(\Sigma X)$ from the long exact sequence of the pair $(\Sigma X, A)$. Similarly, $\beta$ is in the image of $H^l(\Sigma X, B) \to H^l(\Sigma X)$. Let $\alpha' \in H^k(\Sigma X, A)$ and $\beta' \in H^l(\Sigma X, B)$ be preimages of $\alpha$ and $\beta$.
 
