@@ -31,7 +31,7 @@ Let $R \subset S$ be a subring. Suppose that $S$ is generated as an $R$-algebra 
 
 (a) $S$ is a finitely generated $R$-module.
 
-(b) There exists a monic polyomial $p(t) \in R[t]$ such that $p(x)=0$ (in this case, we say that $x$ is integral over $R$ ).
+(b) There exists a monic polynomial $p(t) \in R[t]$ such that $p(x)=0$ (in this case, we say that $x$ is integral over $R$ ).
 
 # Problem 4.
 A ring $R$ is said to be Artinian if any descending chain of ideals
