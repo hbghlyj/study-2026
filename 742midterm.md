@@ -1,6 +1,9 @@
 # Problem 1.
 (a) True or False: the functor $`M \mapsto\{x \in M: 2 x=0\}`$ from the category of abelian groups to the category of sets is representable.
 
+**Answer**
+True. The functor $`M \mapsto\{x \in M: 2 x=0\}`$ is isomorphic to $`M \mapsto\mathrm{Hom}(\mathbb{Z}/2,M)`$. 
+
 (b) True or False: $\mathbb{R}[x, y]$ is a flat $\mathbb{R}[x]$-module (it should be clear what the module structure is).
 
 (c) True or False: if $R$ is a UFD and $\mathfrak{p} \subset R$ is a prime ideal, then $R / \mathfrak{p}$ is a UFD.
