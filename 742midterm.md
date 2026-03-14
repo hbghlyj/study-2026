@@ -1,5 +1,5 @@
 # Problem 1.
-(a) True or False: the functor $M \mapsto\{x \in M: 2 x=0\}$ from the category of abelian groups to the category of sets is representable.
+(a) True or False: the functor $`M \mapsto\{x \in M: 2 x=0\}`$ from the category of abelian groups to the category of sets is representable.
 
 (b) True or False: $\mathbb{R}[x, y]$ is a flat $\mathbb{R}[x]$-module (it should be clear what the module structure is).
 
