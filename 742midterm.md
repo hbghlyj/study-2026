@@ -46,7 +46,12 @@ How many maximal ideals does the ring have? (The answer may depend on $a$.)
 
 **Proof**
 
-If $t^3-a$ is irreducible, then only one.
+The ring is $S_a \cong \mathbb{Q}[t]/(t^3-a)$. The number of maximal ideals equals the number of distinct irreducible factors of $p(t) = t^3-a$ over $\mathbb{Q}$.
+
+- If $a$ is not a cube in $\mathbb{Q}$, $p(t)$ is irreducible. Thus, $S_a$ is a field and has **one** maximal ideal.
+- If $a=b^3$ for some $b \in \mathbb{Q}$:
+    - If $a=0$, $p(t)=t^3$. There is **one** maximal ideal, $(t)$.
+    - If $a \neq 0$, $p(t)=(t-b)(t^2+bt+b^2)$. The quadratic factor is irreducible over $\mathbb{Q}$ (its discriminant is $-3b^2 < 0$). Thus, there are **two** maximal ideals.
 
 (b) Find values of $a \in \mathbb{Q}$ for which is $S_a$ is not reduced (i.e., it has nilpotents), and describe the nilradical $\operatorname{nil}\left(S_a\right)$.
 
