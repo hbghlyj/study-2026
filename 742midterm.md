@@ -70,7 +70,7 @@ Let $R \subset S$ be a subring. Suppose that $S$ is generated as an $R$-algebra 
 
 (a) $\Rightarrow$ (b): If $S$ is a finitely generated $R$-module, then there exist $r_0, r_1, \dots, r_{n-1} \in R$ such that $S = R \cdot 1 + R \cdot x + \cdots + R \cdot x^{n-1}$. Since $x^n \in S$, we can write $x^n = r_0 + r_1 x + \cdots + r_{n-1} x^{n-1}$ for some $r_i \in R$. Rearranging gives $x^n - r_{n-1} x^{n-1} - \cdots - r_1 x - r_0 = 0$, so the monic polynomial $p(t) = t^n - r_{n-1} t^{n-1} - \cdots - r_1 t - r_0$ satisfies $p(x) = 0$.
 
-(b) $\Leftarrow$ (a): Let $p(t) = t^n - r_{n-1} t^{n-1} - \cdots - r_1 t - r_0$ be a monic polynomial such that $p(x) = 0$. Then we can express $x^n$ as a linear combination of lower powers of $x$: $x^n = r_{n-1} x^{n-1} + \cdots + r_1 x + r_0$. This means that any power of $x$ can be reduced to a linear combination of $1, x, \dots, x^{n-1}$. Therefore, $S$ is generated as an $R$-module by the finite set $\{1, x, \dots, x^{n-1}\}$, so $S$ is a finitely generated $R$-module.
+(b) $\Rightarrow$ (a): Let $p(t) = t^n + a_{n-1} t^{n-1} + \cdots + a_0 \in R[t]$ be a monic polynomial with $p(x)=0$. Then $x^n = -(a_{n-1} x^{n-1} + \cdots + a_0)$. By induction, this shows any power $x^k$ for $k \ge n$ can be written as an $R$-linear combination of $\{1, x, \dots, x^{n-1}\}$. Since $S=R[x]$, this implies $S$ is generated as an $R$-module by the finite set $\{1, x, \dots, x^{n-1}\}$
 
 # Problem 4.
 A ring $R$ is said to be Artinian if any descending chain of ideals
