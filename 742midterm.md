@@ -15,6 +15,10 @@ True. It is a free module, hence flat. As an $\mathbb{R}[x]$-module, it has infi
 
 (e) What is the cardinality of $((\mathbb{Z} / 10 \mathbb{Z}) \oplus(\mathbb{Z} / 100 \mathbb{Z})) \otimes_{\mathbb{Z}}((\mathbb{Z} / 20 \mathbb{Z}) \oplus(\mathbb{Z} / 25 \mathbb{Z}))$ ?
 
+**Answer**
+
+$\gcd(10,20)+\gcd(10,25)+\gcd(100,20)+\gcd(100,25)=10+5+20+25=60$
+
 # Problem 2.
 Consider the rings $R=\mathbb{Q}[x]$ and $S=\mathbb{Q}[t]$. Turn $S$ into an $R$-algebra using the homomorphism
 
