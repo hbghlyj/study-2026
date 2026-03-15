@@ -6,6 +6,9 @@ True. The functor $`M \mapsto\{x \in M: 2 x=0\}`$ is isomorphic to $`M \mapsto\m
 
 (b) True or False: $\mathbb{R}[x, y]$ is a flat $\mathbb{R}[x]$-module (it should be clear what the module structure is).
 
+**Answer**
+True. It is a free module, hence flat. As an $\mathbb{R}[x]$-module, it has infinite rank with basis \{$1, y, y^2, \dots$\}.
+
 (c) True or False: if $R$ is a UFD and $\mathfrak{p} \subset R$ is a prime ideal, then $R / \mathfrak{p}$ is a UFD.
 
 (d) Give an example of a ring $R$ such that $(x) \subset R[x]$ is not a prime ideal.
