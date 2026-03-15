@@ -15,7 +15,7 @@ True. It is a free module, hence flat. As an $\mathbb{R}[x]$-module, it has infi
 
 **Answer**
 
-Any integral domain $R$. For example $R=\mathbb{Z}/6$.
+Any ring $R$ that is not an integral domain. For example, $R=\mathbb{Z}/6\mathbb{Z}$.
 
 (e) What is the cardinality of $((\mathbb{Z} / 10 \mathbb{Z}) \oplus(\mathbb{Z} / 100 \mathbb{Z})) \otimes_{\mathbb{Z}}((\mathbb{Z} / 20 \mathbb{Z}) \oplus(\mathbb{Z} / 25 \mathbb{Z}))$ ?
 
