@@ -66,6 +66,7 @@ stabilizes.
 
 (b) Show that in an Artinian ring, the Jacobson radical coincides with the nilradical.
 
+---
 The remaining problems use the following definition:
 
 Let $R$ be a ring. A class of modules $\mathcal{T} \subset R\text{-mod}$ is called a torsion theory if it satisfies the following conditions:
