@@ -44,6 +44,10 @@ $$
 
 How many maximal ideals does the ring have? (The answer may depend on $a$.)
 
+**Proof**
+
+If $t^3-a$ is irreducible, then only one.
+
 (b) Find values of $a \in \mathbb{Q}$ for which is $S_a$ is not reduced (i.e., it has nilpotents), and describe the nilradical $\operatorname{nil}\left(S_a\right)$.
 
 # Problem 3.
