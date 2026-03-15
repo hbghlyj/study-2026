@@ -57,7 +57,7 @@ The ring is $S_a \cong \mathbb{Q}[t]/(t^3-a)$. The number of maximal ideals equa
 
 **Proof**
 
-$S_a$ is not reduced if and only if $p(t) = t^3-a$ has a repeated root, which happens if and only if $a=0$. In this case, $S_a \cong \mathbb{Q}[t]/(t^3)$, and $t$ is nilpotent. To see that $t$ generates the nilradical, use $\operatorname{nil}(S_a) = \sqrt{(0)} = \bigcap_{\mathfrak{m} \in \operatorname{MaxSpec}(S_a)} \mathfrak{m}$. Since there is only one maximal ideal $(t)$, we have $\operatorname{nil}(S_a) = (t)$.
+$S_a$ is not reduced if and only if $p(t) = t^3-a$ has a repeated root, which happens if and only if $a=0$. In this case, $S_a \cong \mathbb{Q}[t]/(t^3)$, and $t$ is nilpotent. To see that $t$ generates the nilradical, use $\operatorname{nil}(S_a) = \sqrt{(0)} = \bigcap_{\mathfrak{p} \in \operatorname{Spec}(S_a)} \mathfrak{p}$. Since there is only one prime ideal $(t)$, we have $\operatorname{nil}(S_a) = (t)$.
 
 # Problem 3.
 Let $R \subset S$ be a subring. Suppose that $S$ is generated as an $R$-algebra by one element $x \in S$ (so that $S$ may be viewed as a quotient of the polynomial algebra $R[x]$ ). Show that the following two statements are equivalent:
