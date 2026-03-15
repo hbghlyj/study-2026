@@ -12,7 +12,7 @@ True. It is a free module, hence flat. As an $\mathbb{R}[x]$-module, it has infi
 (c) True or False: if $R$ is a UFD and $\mathfrak{p} \subset R$ is a prime ideal, then $R / \mathfrak{p}$ is a UFD.
 
 **Answer**
-True.
+False. For a counterexample, let $R = \mathbb{Z}[x]$, which is a UFD. The ideal $\mathfrak{p} = (x^2+5)$ is prime, but the quotient $R/\mathfrak{p} \cong \mathbb{Z}[\sqrt{-5}]$ is not a UFD, as $6 = 2 \cdot 3 = (1+\sqrt{-5})(1-\sqrt{-5})$.
 
 (d) Give an example of a ring $R$ such that $(x) \subset R[x]$ is not a prime ideal.
 
