@@ -13,6 +13,10 @@ True. It is a free module, hence flat. As an $\mathbb{R}[x]$-module, it has infi
 
 (d) Give an example of a ring $R$ such that $(x) \subset R[x]$ is not a prime ideal.
 
+**Answer**
+
+Any integral domain $R$. For example $R=\mathbb{Z}/6$.
+
 (e) What is the cardinality of $((\mathbb{Z} / 10 \mathbb{Z}) \oplus(\mathbb{Z} / 100 \mathbb{Z})) \otimes_{\mathbb{Z}}((\mathbb{Z} / 20 \mathbb{Z}) \oplus(\mathbb{Z} / 25 \mathbb{Z}))$ ?
 
 **Answer**
