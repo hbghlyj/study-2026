@@ -70,7 +70,7 @@ Let $R \subset S$ be a subring. Suppose that $S$ is generated as an $R$-algebra 
 A ring $R$ is said to be Artinian if any descending chain of ideals
 
 $$
-R \supset I_1 \supset \cdots \supset I_k \supset \ldots
+R \supset I_1 \supset \cdots \supset I_k \supset \cdots
 $$
 
 stabilizes.
