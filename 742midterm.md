@@ -118,6 +118,12 @@ Let $R$ be a ring. A class of modules $\mathcal{T} \subset R\text{-mod}$ is call
 # Problem 5.
 Show that any torsion theory $\mathcal{T} \subset R\text{-mod}$ is a "tensor ideal": for any $M \in \mathcal{T}$ and $N \in R\text{-mod}$, we have $M \otimes N \in \mathcal{T}$.
 
+**Proof**
+
+Since $\cal T$ is closed under direct sums, $M$ tensor a free module is in $\mathcal{T}$.
+
+Let $N$ be quotient of a free module. Since $\cal T$ is closed under quotients, $M \otimes N$ is in $\mathcal{T}$.
+
 # Problem 6.
 Let $\mathcal{T} \in R\text{-mod}$ be a torsion theory.
 
