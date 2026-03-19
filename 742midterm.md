@@ -95,7 +95,7 @@ For any $x\in\text{rad}(R)$, then $1-rx$ is a unit for all $r\in R$, we need to 
 
 Consider the chain of ideals $(x) \supset (x^2) \supset (x^3) \supset \dots$.
 
-By the Artinian property, this chain stabilizes, so there exists $n$ such that $(x^n) = (x^{n+1})$. This means there exists $r \in R^\times$ such that $x^n=r x^{n+1}$. Since $1-rx$ is a unit, $x^n=0$.
+By the Artinian property, this chain stabilizes, so there exists $n$ such that $(x^n) = (x^{n+1})$. This means $x^n = r x^{n+1}$ for some $r \in R$, which implies $x^n(1-rx)=0$. Since $x \in \text{rad}(R)$, the element $1-rx$ is a unit, so we can conclude that $x^n=0$.
 
 ---
 The remaining problems use the following definition:
