@@ -135,3 +135,7 @@ Let $\mathcal{T} \in R\text{-mod}$ be a torsion theory.
 Let $M_{\mathcal{T}}$ be the sum of all submodules of $M$ that belong to $\mathcal{T}$. There is a canonical surjective map from the direct sum of these submodules onto $M_{\mathcal{T}}$. Since $\mathcal{T}$ is closed under direct sums, the direct sum is in $\mathcal{T}$. Since $\mathcal{T}$ is closed under quotients, $M_{\mathcal{T}}$ is in $\mathcal{T}$. By construction, it is the largest such submodule.
 
 (b) Show that the correspondence $M \rightarrow M_{\mathcal{T}}$ defines a functor. (By the way, the functor is automatically left exact, but you don't have to prove this.)
+
+**Proof**
+
+For a module homomorphism $f:M\to N$, the corresponding module homomorphism $M_{\mathcal{T}}\to N_{\mathcal{T}}$ is the same $f$ 
