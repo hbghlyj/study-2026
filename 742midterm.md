@@ -122,9 +122,8 @@ Show that any torsion theory $\mathcal{T} \subset R\text{-mod}$ is a "tensor ide
 
 **Proof**
 
-Since $\cal T$ is closed under direct sums, $M$ tensor a free module is in $\mathcal{T}$.
-
-Let $N$ be quotient of a free module. Since $\cal T$ is closed under quotients, $M \otimes N$ is in $\mathcal{T}$.
+Any module $N$ is a quotient of a free module $F = \bigoplus_I R$. Then $M \otimes F \cong \bigoplus_I M \in \mathcal{T}$ since $\mathcal{T}$ is closed under direct sums.
+Since $M \otimes N$ is a quotient of $M \otimes F$ (by right-exactness of tensor product) and $\mathcal{T}$ is closed under quotients, we have $M \otimes N \in \mathcal{T}.
 
 # Problem 6.
 Let $\mathcal{T} \in R\text{-mod}$ be a torsion theory.
