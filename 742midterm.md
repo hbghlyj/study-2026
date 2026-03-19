@@ -93,7 +93,9 @@ Consider the descending chain of ideals $(a) \supset (a^2) \supset (a^3) \supset
 
 **Proof**
 
-For any $x\in\text{rad}(R)$, then $1-rx$ is a unit for all $r\in R$, we need to show that $x$ is nilpotent.
+Every prime ideal contains $(0)$ and hence contain all nilpotent elements, so $\mathrm{Nil}(R)\subseteq \mathrm{Jac}(R)$.
+
+For the converse $\mathrm{Jac}(R)\subseteq \mathrm{Nil}(R)$, for any $x\in\text{rad}(R)$, then $1-rx$ is a unit for all $r\in R$, we need to show that $x$ is nilpotent.
 
 Consider the chain of ideals $(x) \supset (x^2) \supset (x^3) \supset \dots$.
 
