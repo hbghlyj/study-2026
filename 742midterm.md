@@ -123,11 +123,15 @@ Show that any torsion theory $\mathcal{T} \subset R\text{-mod}$ is a "tensor ide
 **Proof**
 
 Any module $N$ is a quotient of a free module $F = \bigoplus_I R$. Then $M \otimes F \cong \bigoplus_I M \in \mathcal{T}$ since $\mathcal{T}$ is closed under direct sums.
-Since $M \otimes N$ is a quotient of $M \otimes F$ (by right-exactness of tensor product) and $\mathcal{T}$ is closed under quotients, we have $M \otimes N \in \mathcal{T}.
+Since $M \otimes N$ is a quotient of $M \otimes F$ (by right-exactness of tensor product) and $\mathcal{T}$ is closed under quotients, we have $M \otimes N \in \mathcal{T}$.
 
 # Problem 6.
 Let $\mathcal{T} \in R\text{-mod}$ be a torsion theory.
 
 (a) Show that any $M \in R\text{-mod}$ contains a largest torsion submodule $M_{\mathcal{T}} \subset M$ : that is, $M_{\mathcal{T}}$ is largest among all submodules $N \subset M$ such that $N \in \mathcal{T}$. (Keep in mind that "largest" is stronger than "maximal"; in particular, there can be at most one largest submodule.)
+
+**Proof**
+
+Let $M_{\mathcal{T}}$ be the sum of all submodules of $M$ that belong to $\mathcal{T}$. There is a canonical surjective map from the direct sum of these submodules onto $M_{\mathcal{T}}$. Since $\mathcal{T}$ is closed under direct sums, the direct sum is in $\mathcal{T}$. Since $\mathcal{T}$ is closed under quotients, $M_{\mathcal{T}}$ is in $\mathcal{T}$. By construction, it is the largest such submodule.
 
 (b) Show that the correspondence $M \rightarrow M_{\mathcal{T}}$ defines a functor. (By the way, the functor is automatically left exact, but you don't have to prove this.)
