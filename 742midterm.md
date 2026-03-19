@@ -91,7 +91,7 @@ To show $R$ is a field, we must show that every nonzero element is a unit. Let $
 
 **Proof**
 
-For any $x\in\text{rad}(R)$, then $1-rx$ is a unit for all $r\in R^\times$, we need to show that $x$ is nilpotent.
+For any $x\in\text{rad}(R)$, then $1-rx$ is a unit for all $r\in R$, we need to show that $x$ is nilpotent.
 
 Consider the chain of ideals $(x) \supset (x^2) \supset (x^3) \supset \dots$.
 
