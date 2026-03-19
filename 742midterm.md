@@ -93,7 +93,7 @@ Consider the descending chain of ideals $(a) \supset (a^2) \supset (a^3) \supset
 
 **Proof**
 
-Every prime ideal contains $(0)$ and hence contain all nilpotent elements, so $\mathrm{Nil}(R)\subseteq \mathrm{Jac}(R)$.
+The nilradical $\mathrm{Nil}(R)$ is the intersection of all prime ideals, while the Jacobson radical $\mathrm{Jac}(R)$ is the intersection of all maximal ideals. Since every maximal ideal is also a prime ideal, it follows that $\mathrm{Nil}(R) \subseteq \mathrm{Jac}(R)$.
 
 For the converse $\mathrm{Jac}(R)\subseteq \mathrm{Nil}(R)$, for any $x\in\text{rad}(R)$, then $1-rx$ is a unit for all $r\in R$, we need to show that $x$ is nilpotent.
 
