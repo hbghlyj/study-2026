@@ -132,6 +132,6 @@ Let $\mathcal{T} \in R\text{-mod}$ be a torsion theory.
 
 **Proof**
 
-Let $M_1,M_2$ be two submodules of $M$. The map $M_1\oplus M_2\to M$ defined by $(m_1,m_2)\mapsto m_1+m_2$ has kernel consisting of $(m,-m)$ for any $m \in M_1\cap M_2$.
+Let $M_{\mathcal{T}}$ be the sum of all submodules of $M$ that belong to $\mathcal{T}$. There is a canonical surjective map from the direct sum of these submodules onto $M_{\mathcal{T}}$. Since $\mathcal{T}$ is closed under direct sums, the direct sum is in $\mathcal{T}$. Since $\mathcal{T}$ is closed under quotients, $M_{\mathcal{T}}$ is in $\mathcal{T}$. By construction, it is the largest such submodule.
 
 (b) Show that the correspondence $M \rightarrow M_{\mathcal{T}}$ defines a functor. (By the way, the functor is automatically left exact, but you don't have to prove this.)
