@@ -91,6 +91,14 @@ Consider the descending chain of ideals $(a) \supset (a^2) \supset (a^3) \supset
 
 (b) Show that in an Artinian ring, the Jacobson radical coincides with the nilradical.
 
+**Proof**
+
+For any $x\in\text{rad}(R)$, then $1-rx$ is a unit for all $r\in R$, we need to show that $x$ is nilpotent.
+
+Consider the chain of ideals $(x) \supset (x^2) \supset (x^3) \supset \dots$.
+
+By the Artinian property, this chain stabilizes, so there exists $n$ such that $(x^n) = (x^{n+1})$. This means $x^n = r x^{n+1}$ for some $r \in R$, which implies $x^n(1-rx)=0$. Since $x \in \text{rad}(R)$, the element $1-rx$ is a unit, so we can conclude that $x^n=0$.
+
 ---
 The remaining problems use the following definition:
 
