@@ -85,7 +85,7 @@ stabilizes.
 
 **Proof**
 
-It suffices to show that any nonzero ideal $I \subset R$ is equal to $R$. Let $0 \neq a \in I$. Since $R$ is a domain, the ideals $I \supset (a) \supset (a^2) \supset (a^3) \supset \cdots$ form a descending chain. By the Artinian property, there exists $n$ such that $(a^n) = (a^{n+1})$. This means there exists $r \in R$ such that $a^n = r a^{n+1}$. Since $R$ is a domain and $a^n \neq 0$, we can cancel $a^n$ to get $1 = r a$, so $a$ is a unit. Thus, any nonzero ideal contains a unit and must be equal to $R$.
+To show $R$ is a field, we must show that every nonzero element is a unit. Let $0 \neq a \in R$. Consider the descending chain of ideals $(a) \supset (a^2) \supset (a^3) \supset \cdots$. By the Artinian property, this chain stabilizes, so there exists $n$ such that $(a^n) = (a^{n+1})$. This means there exists $r \in R$ such that $a^n = r a^{n+1}$. Since $R$ is a domain and $a^n \neq 0$, we can cancel $a^n$ to get $1 = r a$. Thus, $a$ is a unit. As every nonzero element of $R$ is a unit, $R$ is a field.
 
 (b) Show that in an Artinian ring, the Jacobson radical coincides with the nilradical.
 
