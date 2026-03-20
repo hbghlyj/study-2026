@@ -135,3 +135,11 @@ Let $\mathcal{T} \in R\text{-mod}$ be a torsion theory.
 Let $M_{\mathcal{T}}$ be the sum of all submodules of $M$ that belong to $\mathcal{T}$. There is a canonical surjective map from the direct sum of these submodules onto $M_{\mathcal{T}}$. Since $\mathcal{T}$ is closed under direct sums, the direct sum is in $\mathcal{T}$. Since $\mathcal{T}$ is closed under quotients, $M_{\mathcal{T}}$ is in $\mathcal{T}$. By construction, it is the largest such submodule.
 
 (b) Show that the correspondence $M \rightarrow M_{\mathcal{T}}$ defines a functor. (By the way, the functor is automatically left exact, but you don't have to prove this.)
+
+**Proof**
+
+For a homomorphism $f:M \to N$, define $f_{\mathcal{T}}: M_{\mathcal{T}} \to N_{\mathcal{T}}$ as the restriction $f|_{M_{\mathcal{T}}}$. This map is well-defined: since $M_{\mathcal{T}} \in \mathcal{T}$ and $f(M_{\mathcal{T}})$ is a quotient of $M_{\mathcal{T}}$ (by the First Isomorphism Theorem), and $\mathcal{T}$ is closed under quotients, its image $f(M_{\mathcal{T}})$ is also in $\mathcal{T}$. As $N_{\mathcal{T}}$ is the largest submodule of $N$ in $\mathcal{T}$, we have $f(M_{\mathcal{T}}) \subseteq N_{\mathcal{T}}.
+
+The functoriality properties are checked as follows:
+- $(\text{id}_M)_{\mathcal{T}} = \text{id}_M|_{M_{\mathcal{T}}} = \text{id}_{M_{\mathcal{T}}}$.
+- For $f:M \to N$ and $g:N \to P$, $(g \circ f)_{\mathcal{T}} = (g \circ f)|_{M_{\mathcal{T}}} = (g|_{N_{\mathcal{T}}}) \circ (f|_{M_{\mathcal{T}}}) = g_{\mathcal{T}} \circ f_{\mathcal{T}}$.
