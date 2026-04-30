@@ -27,7 +27,7 @@ Let $E \supset \mathbb{Q}$ be a degree four extension. Show that it is impossibl
 
 $\mathbb{Q} \subsetneq M \subsetneq E .$
 
-(Side remark: the only possibilities for the number of intermediate fields in this situation are 0,1 , or 3 .)
+(Side remark: the only possibilities for the number of intermediate fields in this situation are $0, 1,$ or $3$.)
 
 # 4
 Let $n>1$, and set $E=\mathbb{C}(x)$ and $F=\mathbb{R}\left(x^n\right)$ (note the fields of coefficients are different!) Prove that $E \supset F$ is a finite Galois extension and find its Galois group.
