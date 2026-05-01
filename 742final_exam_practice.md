@@ -30,6 +30,11 @@ $\mathbb{Q} \subsetneq M \subsetneq E .$
 
 (Side remark: the only possibilities for the number of intermediate fields in this situation are $0, 1,$ or $3$.)
 
+**Proof**
+Suppose there are at least two distinct intermediate fields $M_1, M_2$. Since the degree of an intermediate extension must divide $[E:\mathbb{Q}]=4$, we have $[M_i:\mathbb{Q}]=2$. Thus $M_1 = \mathbb{Q}(\sqrt{d_1})$ and $M_2 = \mathbb{Q}(\sqrt{d_2})$ for distinct square-free integers $`d_1, d_2 \in \mathbb{Z} \setminus \{1\}`$.
+
+Since $M_1, M_2 \subseteq E$ and $[M_1 M_2 : \mathbb{Q}] = 4$, we have $E = \mathbb{Q}(\sqrt{d_1}, \sqrt{d_2})$. Then $M_3 = \mathbb{Q}(\sqrt{d_1 d_2})$ is also a subfield of $E$. Note that $M_3$ is distinct from $M_1$ and $M_2$: if $\sqrt{d_1 d_2} \in \mathbb{Q}(\sqrt{d_1})$, then $\sqrt{d_2} \in \mathbb{Q}(\sqrt{d_1})$, which contradicts the fact that $x^2 - d_2$ is irreducible over $\mathbb{Q}(\sqrt{d_1})$ for distinct square-free $d_1, d_2$. Thus, if there are at least two intermediate fields, there are at least three.
+
 # 4
 Let $n>1$, and set $E=\mathbb{C}(x)$ and $F=\mathbb{R}(x^n)$ (note the fields of coefficients are different!) Prove that $E \supset F$ is a finite Galois extension and find its Galois group.
 
