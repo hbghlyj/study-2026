@@ -47,6 +47,8 @@ $\deg(X^2+1)=2$, so $[\mathbb{C}(x^n):\mathbb{R}(x^n)]=2$
 
 $\deg(X^n-x^n)=n$, so $[E:\mathbb{C}(x^n)]=n$
 
+so $[E:F]=[E:\mathbb{C}(x^n)][\mathbb{C}(x^n):\mathbb{R}(x^n)]=2n$.
+
 Define $\sigma\in\mathrm{Gal}(E/\mathbb{R}(x))$ by $\sigma(i)=-i$.
 
 Define $\tau\in\mathrm{Gal}(E/\mathbb{C}(x^n))$ by $\tau(x)=\zeta_n x$.
