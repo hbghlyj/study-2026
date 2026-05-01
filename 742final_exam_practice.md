@@ -57,7 +57,7 @@ $\sigma\tau(x)=\zeta_n^{-1}x=\tau^{-1}\sigma(x)$
 
 $\sigma\tau(i)=-i=\tau\sigma(i)$
 
-The map $\phi: D_{2n} \to \mathrm{Gal}(E/F)$ defined by $r \mapsto \sigma, s \mapsto \tau$ is an isomorphism with inverse $\sigma \mapsto r, \tau \mapsto s$.
+To show the map $\phi: D_{2n} \to \mathrm{Gal}(E/F)$ defined by $r \mapsto \sigma, s \mapsto \tau$ is an isomorphism, it suffices to show it is surjective:
 
 # 5
 Let $E \supset F$ be a Galois extension such that $\operatorname{Gal}(E / F) \simeq S_5$. Prove that $E$ is the splitting field of a degree five polynomial over $F$.
