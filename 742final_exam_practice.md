@@ -33,6 +33,24 @@ $\mathbb{Q} \subsetneq M \subsetneq E .$
 # 4
 Let $n>1$, and set $E=\mathbb{C}(x)$ and $F=\mathbb{R}(x^n)$ (note the fields of coefficients are different!) Prove that $E \supset F$ is a finite Galois extension and find its Galois group.
 
+**Proof**
+
+$E$ is the splitting field of $(X^n-x^n)(X^n+1)$ over $F$, so $E/F$ is Galois.
+
+$\deg(X^2+1)=2$, so $[\mathbb{C}(x^n):\mathbb{R}(x^n)]=2$
+
+$\deg(X^n-x^n)=n$, so $[E:\mathbb{C}(x^n)]=n$
+
+Define $\sigma\in\mathrm{Gal}(E/\mathbb{R}(x))$ by $\sigma(i)=-i$.
+
+Define $\tau\in\mathrm{Gal}(E/\mathbb{C}(x^n))$ by $\tau(x)=\zeta_n x$.
+
+$\sigma\tau(x)=\zeta_n^{-1}x=\tau^{-1}\sigma(x)$
+
+$\sigma\tau(i)=-i=\tau\sigma(i)$
+
+$\sigma,\tau$ generate $\mathrm{Gal}(E/\mathbb{R}(x))$, so $D_{2n}$ surjects onto $\mathrm{Gal}(E/\mathbb{R}(x))$. Both have order $2n$, so $\mathrm{Gal}(E/\mathbb{R}(x))\cong D_{2n}$.
+
 # 5
 Let $E \supset F$ be a Galois extension such that $\operatorname{Gal}(E / F) \simeq S_5$. Prove that $E$ is the splitting field of a degree five polynomial over $F$.
 
