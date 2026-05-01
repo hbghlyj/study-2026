@@ -49,7 +49,7 @@ $\sigma\tau(x)=\zeta_n^{-1}x=\tau^{-1}\sigma(x)$
 
 $\sigma\tau(i)=-i=\tau\sigma(i)$
 
-$\sigma,\tau$ generate $\mathrm{Gal}(E/\mathbb{R}(x))$, so $D_{2n}$ surjects onto $\mathrm{Gal}(E/\mathbb{R}(x))$. Both have order $2n$, so $\mathrm{Gal}(E/\mathbb{R}(x))\cong D_{2n}$.
+The map $\phi: D_{2n} \to \mathrm{Gal}(E/F)$ defined by $r \mapsto \sigma, s \mapsto \tau$ is an isomorphism with inverse $\sigma \mapsto r, \tau \mapsto s$.
 
 # 5
 Let $E \supset F$ be a Galois extension such that $\operatorname{Gal}(E / F) \simeq S_5$. Prove that $E$ is the splitting field of a degree five polynomial over $F$.
