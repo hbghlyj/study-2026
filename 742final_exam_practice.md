@@ -19,6 +19,7 @@ Set $\alpha=\sqrt{2-\sqrt{2}}$.
 1. Find the minimal polynomial of $\alpha$ over $\mathbb{Q}$.
 2. Show that $\mathbb{Q}(\alpha) \supset \mathbb{Q}$ is a Galois extension.
 3. Find the Galois group $\operatorname{Gal}(\mathbb{Q}(\alpha) / \mathbb{Q})$.
+
 **Proof**
 1. Let $f(x) = x^4 - 4x^2 + 2$. Since $2 | 0$ (coefficient of $x^3$), $2 | -4$, $2 | 0$ (coefficient of $x$), $2 | 2$, and $2^2 \nmid 2$, $f(x)$ is irreducible over $\mathbb{Q}$ by Eisenstein's criterion with $p=2$.
 2. The roots of $x^4-4x^2+2$ are $\pm \alpha$ and $\pm \beta$ where $\beta = \sqrt{2+\sqrt{2}}$. Since $\alpha\beta = \sqrt{2} = 2-\alpha^2$, we have $\beta = (2-\alpha^2)/\alpha \in \mathbb{Q}(\alpha)$. Thus the polynomial splits in $\mathbb{Q}(\alpha)$. So $\mathbb{Q}(\alpha) \supset \mathbb{Q}$ is a Galois extension.
