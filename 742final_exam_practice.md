@@ -31,7 +31,7 @@ $\mathbb{Q} \subsetneq M \subsetneq E .$
 (Side remark: the only possibilities for the number of intermediate fields in this situation are $0, 1,$ or $3$.)
 
 # 4
-Let $n>1$, and set $E=\mathbb{C}(x)$ and $F=\mathbb{R}\left(x^n\right)$ (note the fields of coefficients are different!) Prove that $E \supset F$ is a finite Galois extension and find its Galois group.
+Let $n>1$, and set $E=\mathbb{C}(x)$ and $F=\mathbb{R}(x^n)$ (note the fields of coefficients are different!) Prove that $E \supset F$ is a finite Galois extension and find its Galois group.
 
 # 5
 Let $E \supset F$ be a Galois extension such that $\operatorname{Gal}(E / F) \simeq S_5$. Prove that $E$ is the splitting field of a degree five polynomial over $F$.
