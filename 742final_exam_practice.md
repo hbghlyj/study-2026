@@ -30,6 +30,13 @@ $\mathbb{Q} \subsetneq M \subsetneq E .$
 
 (Side remark: the only possibilities for the number of intermediate fields in this situation are $0, 1,$ or $3$.)
 
+**Proof**
+Since degrees of extension has to divide $[E:\mathbb{Q}]=4$, intermediate fields have degree 2 over $\mathbb{Q}$, so are radical extensions $\mathbb{Q}(\sqrt{d_1}),\mathbb{Q}(\sqrt{d_2})$ for coprime positive integers $d_1,d_2$.
+
+But then $\sqrt{d_1d_2}$ belongs to neither intermediate fields: suppose $\sqrt{d_1d_2}\in\mathbb{Q}(\sqrt{d_1})$, then $\sqrt{d_2}\in\mathbb{Q}(\sqrt{d_1})$, contradicting $x^2-d_2$ have no roots in $\mathbb{Q}(\sqrt{d_1})$.
+
+So $\mathbb{Q}(\sqrt{d_1d_2})$ is another intermediate field.
+
 # 4
 Let $n>1$, and set $E=\mathbb{C}(x)$ and $F=\mathbb{R}(x^n)$ (note the fields of coefficients are different!) Prove that $E \supset F$ is a finite Galois extension and find its Galois group.
 
