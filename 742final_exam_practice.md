@@ -68,3 +68,9 @@ Let $E \supset F$ be a finite Galois extension, and suppose $f(x) \in F[x]$ is a
 $f(x)=f_1(x) f_2(x) \cdots f_k(x)$
 
 be the factorization of $f(x)$ in $E[x]$. Prove that all polynomials $f_i$ have the same degree, and that $k \mid[E: F]$.
+
+**Proof**
+
+The Galois group $G = \mathrm{Gal}(E/F)$ acts transitively on the set of irreducible factors $f_1, \dots, f_k$. Since automorphisms preserve polynomial degrees, all $f_i$ must have the same degree.
+
+The Galois group $G = \mathrm{Gal}(E/F)$ acts transitively on the set of irreducible factors $f_1, \dots, f_k$ by permutation, so the orbit of $f_1$ has size $k$. By the orbit-stabilizer theorem, $k \mid |G|$, so $k \mid [E:F]$.
